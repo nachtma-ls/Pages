@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pages1.FlyoutPage1"
+             xmlns:pages="clr-namespace:Pages1">
+    <!--Menu deslizable-->
+    <FlyoutPage.Flyout>
+      <!--Lo ideal es comentar esta linea y crear un content page-->
+    <!--<pages:FlyoutPage1Flyout x:Name="FlyoutPage" />-->
+        <ContentPage Title="MENU">
+            <Grid>
+                <Label Text="PlayStore" FontSize="Title" HorizontalOptions="Center"/>
+            </Grid>
+        </ContentPage>
+  </FlyoutPage.Flyout>
+    <!--La ventana de atras-->
+  <FlyoutPage.Detail>
+    <!--<NavigationPage>
+      <x:Arguments>
+        <pages:FlyoutPage1Detail />
+      </x:Arguments>
+    </NavigationPage>-->
+        <ContentPage>
+            <Button Text="HOLA" FontSize="Title" CornerRadius="500" BorderColor="Red"/>
+        </ContentPage>
+  </FlyoutPage.Detail>
+</FlyoutPage>
+    

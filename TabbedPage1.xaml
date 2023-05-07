@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pages1.TabbedPage1"
+            BarBackgroundColor="DarkBlue"
+            BarTextColor="Yellow"
+            SelectedTabColor="Red"
+            UnselectedTabColor="Pink">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Chats" BackgroundColor="Green">
+        <Grid>
+            <Label Text="Soy un chat" TextColor="Yellow" FontSize="Title"/>
+        </Grid>
+    </ContentPage>
+    <ContentPage Title="Estados" BackgroundColor="Cyan" />
+  <ContentPage Title="Llamadas" BackgroundColor="Yellow"/>
+</TabbedPage>
